@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Asteroides</string>
+    <string name="JUGAR"> JUGAR</string>
+    <string name="CONFIGURAR">CONFIGURAR</string>
+    <string name="ACERCA_DE">ACERCA DE..</string>
+    <string name="SALIR">SALIR</string>
+</resources>

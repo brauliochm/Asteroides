@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:gravity="center">
+    <TextView
+        android:text="ASTEROIDES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textView2" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="@string/JUGAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnJugar"
+                android:background="@drawable/botonjugar" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="@string/CONFIGURAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnConfigurar"
+                android:layout_marginLeft="10dp"
+
+                android:background="@drawable/botonconfig" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:text="@string/ACERCA_DE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAcercaDe"
+                android:background="@drawable/botonacerca" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/SALIR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSalir"
+                android:background="@drawable/botonsalir" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
