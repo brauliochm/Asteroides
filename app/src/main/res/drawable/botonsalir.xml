@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true" android:drawable="@drawable/btnsalir" />
     <item android:state_focused="true" android:drawable="@drawable/btnbase" />
-    <item android:drawable="@drawable/btnbase" />
+    <item android:drawable="@drawable/btnbaseexit" />
 </selector>
